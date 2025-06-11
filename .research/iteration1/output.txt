@@ -1,0 +1,28 @@
+Using device: cuda
+
+----- Running Full Experiments -----
+
+
+[Experiment 1]: Dual-Objective Loss Sensitivity Analysis
+Testing weights: λ1 = 0.1, λ2 = 1.0
+Weights (0.1, 1.0): Activation Rate = 0.000, Latent Deviation = 0.001
+Testing weights: λ1 = 0.5, λ2 = 0.5
+Weights (0.5, 0.5): Activation Rate = 0.000, Latent Deviation = 0.001
+Testing weights: λ1 = 1.0, λ2 = 0.1
+Weights (1.0, 0.1): Activation Rate = 0.000, Latent Deviation = 0.001
+
+[Experiment 2]: Camouflage Network Architecture Ablation
+Evaluating camouflage architecture: MLP
+Architecture MLP: Activation Rate = 0.000, Latent Deviation = 0.003
+Evaluating camouflage architecture: ResNet
+Architecture ResNet: Activation Rate = 0.000, Latent Deviation = 0.011
+Evaluating camouflage architecture: Transformer
+Architecture Transformer: Activation Rate = 0.000, Latent Deviation = 0.001
+
+[Experiment 3]: Simulated Defense-In-The-Loop Effectiveness
+Condition with defense: Activation Rate = 0.000, Latent Deviation = 0.001
+Condition without defense: Activation Rate = 0.000, Latent Deviation = 0.000
+
+----- Full Experiments Completed -----
+
+status_enum: stopped
